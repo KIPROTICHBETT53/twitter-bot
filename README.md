@@ -58,10 +58,10 @@ The bot will start streaming tweets from the specified Twitter accounts and repo
 ## Modify target accounts:
 In the bot.py file, replace the target_usernames list with the Twitter handles you want to follow:
 
-python
-Copy code
+```bash
 target_usernames = ["FabrizioRomano", "jack"]
-Troubleshooting
+```
+## Troubleshooting
 Error: Consumer key must be string or bytes, not NoneType
 
 This error occurs if your API credentials are not properly set in the .env file. Ensure that your BEARER_TOKEN is correctly added.
@@ -71,11 +71,8 @@ If you see this error, it means you've hit the rate limit for Twitter's API. Try
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-markdown
-Copy code
 
 ### Key Sections Explained:
 - **Installation:** This section guides users through setting up the project, including creating a virtual environment and installing dependencies.
