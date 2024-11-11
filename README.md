@@ -52,10 +52,10 @@ Once everything is set up, you can start the bot by running:
 ```bash
 python bot.py
 ```
-Usage
+## Usage
 The bot will start streaming tweets from the specified Twitter accounts and repost them if they are not retweets. You can customize the accounts to follow by updating the target_usernames list in the bot.py file.
 
-Modify target accounts:
+## Modify target accounts:
 In the bot.py file, replace the target_usernames list with the Twitter handles you want to follow:
 
 python
